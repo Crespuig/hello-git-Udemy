@@ -68,3 +68,9 @@ function getAction()
             alert(x.action);
     }
 ```
+
+# Tablas
+| Nombre | Apellido | Documento |
+| ------ | -------- | --------- |
+| Héctor | Crespo   | 213123    |
+| Tomas  | Tompson  | 213123    |
