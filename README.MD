@@ -35,4 +35,36 @@ Underline 2
 - [Esto es un link al index](index.html)
 
 # Imagenes
-![Logo GitHub](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
+![Logo GitHub](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSYahwTogTCxlS6qj1Ccwzdgsyd0PvWpqg3hg&usqp=CAU)
+
+# Code Snippets
+Codigo en JSON
+```JSON
+[
+    {
+        "title": "apples",
+        "count": [12000, 20000],
+        "description": {"text": "...", "sensitive": false}
+    },
+    {
+        "title": "oranges",
+        "count": [17500, null],
+        "description": {"text": "...", "sensitive": false}
+    }
+]
+```
+Codigo en Javascript
+```Javascript
+function getAction()
+    {
+            var x=document.forms.myForm;
+            alert(x.action);
+    }
+    
+    function changeAction(action)
+    {
+            var x=document.forms.myForm;
+            x.action=action;
+            alert(x.action);
+    }
+```
